@@ -1,0 +1,126 @@
+.Game {
+    display: none;
+    height: 100%;
+}
+nav {
+    padding: 0 1rem;
+    background: #3c3c3c;
+    color: #fff;
+}
+.item_menu {
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    padding: .5rem 1rem;
+}
+.item_menu:hover {
+    background: #484848;
+}
+.Game .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.card_player_list { 
+    display: none;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+
+
+    padding: .5rem 0;
+    height: 100%;
+}
+.card_player_list .cpl__card {
+    width: 19%;
+}
+.cpl__card {
+    height: auto;
+    width: 15%;
+    margin-right: 2%;
+    flex-shrink: 0;
+    background: #3c3c3c;
+    padding: 1.4rem 0.5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card_player_fight {
+    margin-top: 0.5rem;
+}
+.card_player_fight .cpl__card {
+    width: 10%;
+    font-size: .8rem;
+    padding: 0;
+}
+.card_player_fight .cpl__card .cpl__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.card_player_fight .cpl__card .cpl__title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.card_player_fight .cpl__card .cpl__description {
+    display: none;
+}
+.cpl__card:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+.cpl__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.cpl__title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    font-family: 'Roboto';
+    color: #fff;
+    margin-bottom: 0.8rem;
+    letter-spacing: .8px;
+}
+.cpl__description {
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #fff;
+    display: flex;
+    align-items: self-end;
+    font-size: .8rem;
+}
+#start_game {
+    display: none;
+}
+.card_player_fight {
+    background: rgb(224, 224, 224);
+    height: 60%;
+}
+.card_player_fight_fild {
+    height: 100%;
+    padding: 0.5% 0.8%;
+    display: flex;
+    justify-content: center;
+}
+.card_player_gamer {
+    height: 40%;
+    padding: 1rem 0;
+    padding-bottom: 1.5rem;
+}
+
+.game {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #fff;
+}
